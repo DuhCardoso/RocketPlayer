@@ -1,0 +1,17 @@
+.containerButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerButtons button{
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    font-size: 3rem;
+}
+
+.containerButtons .play{
+    font-size: 4rem;
+}
