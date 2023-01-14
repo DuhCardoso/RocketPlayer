@@ -3,7 +3,11 @@ import {BsFillSkipBackwardFill,BsPauseFill, BsFillPlayFill, BsFillSkipForwardFil
 
 import classes from "./ButtonsPlay.module.css";
 
-export default function ButtonPlay({}){
+type PropsTypes = {
+    customWidth: string;
+}
+
+export default function ButtonPlay({customWidth}:PropsTypes){
     const [play, setPlay] = useState(false)
 
     function setPauseOrPlay(){
@@ -24,7 +28,7 @@ export default function ButtonPlay({}){
     }
 
     return(
-        <div className={classes.containerButtons}>
+        <div className={`${classes.containerButtons} ${classes[customWidth]}`}>
             <button><BsFillSkipBackwardFill  fill="#E1E1E6"/></button>
             <button 
                 className={classes.play} 

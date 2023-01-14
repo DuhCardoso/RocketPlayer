@@ -1,7 +1,14 @@
 .containerButtons{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+
+    width: 100%;
+}
+.containerButtons.long{
+    justify-content: space-around;
+}
+.containerButtons.min{
+    justify-content: space-between;
 }
 
 .containerButtons button{

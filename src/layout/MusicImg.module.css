@@ -1,0 +1,18 @@
+
+img.full{
+    width: 19rem;
+    height: 19rem;
+}
+
+img.min{
+    width: 8.4rem;
+    height: 8.4rem;
+}
+
+img.on{
+    border-radius: .6rem;
+}
+
+img.off{
+    border-radius: 0;
+}

@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    background-color: #2A2141;
+
+    width: 35.7rem;
+    padding: 3.8rem;
+
+    border-radius: .9rem;
+}
+
+
+.container .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+
